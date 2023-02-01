@@ -112,6 +112,8 @@ color:#BDC581;
 }
 
 .skill-section ul li{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
 
 
 }
@@ -137,10 +139,14 @@ color:#BDC581;
 .js-progress{
     width: 70%;
 }
+.html-progress{
+    width: 90%;
+    color:white;
 
 .skill-title{
     text-transform: uppercase;
     color: #f1f2f6;
     font-size: 1rem;
+    
 
 }
