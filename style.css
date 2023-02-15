@@ -108,11 +108,13 @@ padding-right: 1rem;
 font-size: 2rem;
 color:#BDC581;
 
-
 }
+
 
 .skill-section ul li{
 display: grid;
+color:#f1f2f6;
+justify-content: space-between;
 grid-template-columns: repeat(2, 1fr);
 
 
@@ -138,15 +140,35 @@ grid-template-columns: repeat(2, 1fr);
 }
 .js-progress{
     width: 70%;
+    
 }
+
+.css-progress{
+    width: 90%;
+    
+}
+
+.react-progress{
+    width: 75%;
+ }
+
+.sql-progress{
+    width: 70%;
+ }
+
+.bstrp-progress{
+    width: 75%;
+}
+
 .html-progress{
     width: 90%;
-    color:white;
+ }
+
 
 .skill-title{
     text-transform: uppercase;
     color: #f1f2f6;
     font-size: 1rem;
+   padding: auto;
     
-
 }
